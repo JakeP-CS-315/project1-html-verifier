@@ -1,0 +1,200 @@
+<h2>The Course</h2> <p>CS 315 is the third course in a sequence of programming courses in our
+curriculum that focuses on the design, implementation, and analysis of Data Structures. Parallel to
+the learning of the theoretical topics, you will implement a number of progressively complex
+projects in C++ during the semester. Finally, we cover advanced features of C++, including
+polymorphism and inheritance.</p> <p>The study of Data Structures begins with the notion of Abstract
+Data Types (ADT.) In our initial coverage of ADTs, we study the run-time of the Dictionary
+Operations when implemented using vectors and linked-lists. The data might or might not be
+sorted. This discussion includes the analysis of the run-time of the operations of Stacks, Queues,
+and Deques for different choices of Data Structures as well as the analysis of simple
+algorithms.</p> <p>An interesting variation of a sorted linked list is Skip Lists. We will study
+this data structure and learn about the run-time of its operations.</p> <p>Next, we will focus on
+non-linear Data Structures. These include Binary Trees, Priority Queues, and Graphs. These topics
+require you to have become very comfortable with pointers and recursion. We assume that you are
+already fluent in the use of pointer. We will cover recursion extensively.</p> <p>You will learn a
+great deal about Binary Search Trees, Balanced Trees, and how to analyze the run-time of their
+operations. In that context, we will look at the worst-case-optional version of some of the balanced
+trees, such as AVL trees, and their amortized variations such as Splay Trees and Red-Black
+Trees.</p> <p>For Priority Queues, we will also look at worst-case optimal structures, such as
+heap-ordered binary trees, and amortized versions such as Binomial Queues.</p> <p>Finally, we will
+learn much about the Hash tables and different collision resolution methods.</p> <p>In addition to
+the coverage of data structures, we will look at some of the advanced topics in C++, such as
+inheritance and polymorphism. All programming will be done in C++.</p> <p>You are expected to be
+familiar with the vector- and linear linked-list-based data structures from either CS 215, one of
+the prerequisites of this course, or its equivalent if you are a transfer student. Additionally, you
+are expected to be very comfortable with the use of C++ class and pointers. In this course, we
+assume that background.<span>&nbsp;</span><em>Students who have not acquired a strong foundation in
+the fundamentals of programming and/or pointers are encouraged to retake CS 215 or its equivalent
+before taking this class.</em></p> <h2>Catalog Description</h2> <p>This course introduces the
+concept of the organization of data into different structures to support the efficient
+implementation of computer algorithms. The emphasis of the course is on the internal representation
+of the elementary and intermediate data structures, their time and space requirements, and their
+applications. A second component of the course is the study of more advanced features of
+object-oriented programming.</p> <h2>Leaning Objectives</h2> <ul> <li style="list-style-type:
+none;"> <ul> <li>Develop an understanding of advanced programming using the C++ language including
+inheritance and polymorphism.</li> <li>Become familiar with several STL applications such as vector,
+stack, map, tuple, and queue.</li> <li>Become proficient in the use of recursion in problem solving
+and the implementation of recursive algorithm.</li> <li>Develop an understanding of the abstract
+data types (ADTs): queues, stacks, (linked) lists, binary trees, and graphs.</li> <li>Identify
+fundamental data structures and summarize their typical uses, strengths, and weaknesses by
+evaluating the complexity of their implementation and the run-time of their operations.</li> <li>
+<p>Become proficient in the design and implementation of more advanced data structures such as
+binary trees, balanced search trees, priority queues, hash tables, and skip lists.</p> </li> <li>
+<p>Become familiar with several sub-quadratic sorting algorithms including Quick Sort, Merge Sort
+and Heap Sort.</p> </li> </ul> </li> </ul> <h2>Textbook</h2> <p>We will use one of <a
+class="inline_disabled" href="https://zybooks.com" target="_blank" rel="noopener">zyBooks</a>'
+textbooks, Data Structures Concepts, for this course. I will provide the information that you need
+to purchase this textbook in a handout.&nbsp;</p> <h2>Prerequisites</h2> <p><em>An Introduction to
+Unix (CS 210), Programming II (CS 215),</em><span>&nbsp;</span>and<span>&nbsp;</span><em>Discrete
+Structures for CS (CS 242), with a grade of C- or better in each course.</em></p> <h2>Important
+Dates</h2> <table class="importDates" style="width: 72.4661%;"> <tbody> <tr> <td style="width:
+24.9545%;">Midterm Exam&nbsp;</td> <td style="width: 57.1195%;">Wednesday, March 15</td> </tr> <tr>
+<td style="width: 24.9545%;">Final Exam</td> <td style="width: 57.1195%;"><span>Wednesday, May
+17</span>, 8:00 AM -- 10:00 AM&nbsp;</td> </tr> </tbody> </table> <p>* Please note that the midterm
+exam dates are subject to change. If that were to happen, you will be given the notification and the
+new date(s) during the lecture and via Canvas announcements.</p> <h2><span>Classroom
+Protocol</span></h2> <h3>Attendance&nbsp;</h3> <p>We will deal with emergencies on a case-by-case
+basis. That being said, attendance is required in lectures and labs as this is a face-to-face
+course. On the other hand, we do not expect you to come to class if you are sick. If you are unable
+to attend any lectures or labs, you will have to inform me, via an email, before the class
+meeting.&nbsp;</p> <p>Project-base and Exam-based homework&nbsp; (see below) will be given during
+lectures and labs. If you are not present, you will forfeit the grade of the work that you have
+missed. Quizzes will be given at the beginning of the class. If you are late to the class and a quiz
+is in progress, you will be given one but you will have to turn it in with others. If the quiz has
+finished, you will not get one that day.</p> <h2>Lectures</h2> <p>The proposed outline of what is to
+be covered appears in the Home-page of this course. You are required to attend all lectures and
+labs, and to read the relevant sections of the text prior to lecture, and the relevant online
+documentation prior to lab.<span>&nbsp;</span><em>Attending lectures and labs is required and is
+extremely important to your success in this course. You may not use any electronic devices during
+the lectures or the exams. The only exception to the use of electronics&nbsp;</em><i>devices during
+the lecture is those that are suitable for note taking. In that case, you will have to clear that
+with the instructor before you start using it.</i></p> <h3><span>Lab Meetings</span></h3> <p>During
+lab meetings, we will cover new material, review specifications of projects, answer questions
+related to lecture topics and projects, and work in small groups.&nbsp;</p> <p>The first 50 minutes
+of some of the labs will be devoted to the introduction of new material, reviews, and questions and
+answers. After that, many times the class will be divided into small groups and each group will work
+on some type of activity. These activities may be related to what you have learned during the
+lectures (called exam-related activities),&nbsp; project-based discussions, or a combination of the
+two.&nbsp;</p> <p>You will be graded for some of the lab activities. Since some of the lab
+activities take place in the context of groups, the grade might be a group grade in which case, the
+same grade will be applies to all members of the group.</p> <p>Depending on the type of the
+activity, its grade either gets applied to your grade for projects (project-related grade) or exams
+(exam-based grade.) You will be told beforehand to which of the two categories the grade of an
+activity gets applied.</p> <p>Finally, you will be given quizzes at the start of some labs. Please
+see the section on quizzes for more details.</p> <h2>Programming Projects</h2> <p>There will be
+between five and seven programming projects of differing sizes and complexity in C++. The total
+number of points in the projects is between 500 and 700.&nbsp;</p> <p>You are expected to place all
+files related to your solution to each project in a separate directory, zip the directory, and
+upload it using a Canvas link that will be provided. Therefore, you <em>will never upload anything
+other than a single (zipped) directory for solutions to projects.</em></p> <p>Every project that you
+submit should have a file called README.txt and contain the following items.</p> <ul> <li>Your
+name.</li> <li>Whether or not you have included code in your solution to the project that you did
+not write regardless of its source.</li> <li>Whether or not you provided code, regardless of its
+source, to any student in the class.</li> <li>A list of features that are part of the project
+requirements but you have not implemented.</li> </ul> <p>Again, you should zip the directory that
+contains all files that make up your solution to the project, including the README.txt file, and
+upload it. Here is how you would zip it at a shell prompt if the name of your project directory is
+project1.</p> <pre>zip -r project1.zip project1</pre> <p>You will then
+submit<span>&nbsp;</span><em>&nbsp;project1.zip</em>. We should be able to run the following
+commands to test your program, after having downloaded it, in this way:</p> <pre>unzip project1.zip
+# that will create project1 directory cd project1 # the tar file creates directory, project1 g++
+-std=c++17 *.cpp # this will use all .cpp files to compile your project<br />./project1.x # run
+it</pre> <p>During the semester, you will learn how to use the make command to compile your
+program. Once that happens, we will compile your solution by running the make command.</p> <p>We
+will provide you with the details of where to submit your solution before your assignments are
+due.</p> <p>No late work will be accepted late without a compelling explanation. If you have not
+completed your assignment&nbsp; by the time it is due, you may turn in what you have completed for
+partial credit. In order to give you partial credit, we will follow the instruction that you provide
+in your README.txt. Please note that a partially working submission will get a small percentage of
+the points that is assigned to the project or lab. For example, a submission that implements about
+75 percent of the assignment's requirements and can be tested to demonstrate that, will get at most
+25 percent of the maximum points for the assignment. A program that doesn't compile will get zero
+points regardless of whether it perfectly compiles on a system other than blue.cs.&nbsp;</p>
+<p><strong>Slip days:</strong><span>&nbsp;</span>In order to account for the unexpected, you can use
+two slip days, in the increment of 24 hours, for the entire semester.<span>&nbsp;You can divide
+these two days among these projects however you like.</span></p> <p><span>For example, if your
+project was due on Wednesday at 8:00 PM and your turned it in any time after 8:00 PM on Wednesday
+and before 8:00 PM on Thursday, you have used up one of your slip days and you have one more for all
+other semester projects.</span><span>&nbsp;</span><em>You may not use slip days for the final
+project.</em></p> <p>We encourage you to use CLion (free from<span>&nbsp;</span><a class="external"
+href="https://www.jetbrains.com/" target="_blank" rel="noopener"><span>JetBrains</span><span
+class="screenreader-only">&nbsp;(Links to an external site.)</span></a><span>&nbsp;</span>for
+students)&nbsp;as it provides a comprehensive development environment for large projects. This
+include the ability to conveniently switch between files and an intuitive debugger.</p> <p>However,
+to grade your submissions, we test them on blue.cs. Different compilers implement some of the
+features of C++ differently. For example, some compilers initialize all variables, even when the C++
+standard doesn't require it. As a result, your code might very well run on Clion or any other
+system, but fails to run on blue.cs. Therefore, you should make sure to test your solution on
+blue.cs before submitting it. That is the only system that we use to grade your solutions.</p>
+<h2>Midterm and Final Exam</h2> <p>There will be one midterm exam and a final exam. Exams cover the
+material from the textbook, lectures, labs, and the programming projects. Specifically, you are
+responsible for all the material covered in the lecture and labs regardless of whether they appear
+in the textbook or not. Only with a compelling reason that can be documented you may make up a
+missed exam.</p> <p>The final exam will be<span>&nbsp;</span><em>comprehensive.</em><em></em></p>
+<h3>Quizzes</h3> <p>Approximately 8 pop-quizzes and synchronization assignments will be given during
+the semester. Pop-quizzes will be given on random days at the beginning of the class, or lab, and
+will cover the material that has been recently introduced in the lectures, labs, or you have
+implemented in projects. Quizzes are closed book. Only with a compelling reason that can be
+documented you may make up a missed quiz.</p> <p><strong>Important Note:</strong><i>&nbsp;
+pop-quizzes will be given at the beginning of the class the lecture or lab. If you&nbsp;join the
+class after a quiz has started, you will be given a quiz only if no quiz has been turned in. If you
+were to be given a quiz when you are late, you will have to turn it in with the rest of the
+class.&nbsp;</i><span>Quizzes contribute 20 percent to you semester grade.</span><i>&nbsp;</i></p>
+<h2>Grading</h2> <p>The following is a summary of the components that make up your final grade for
+this course.</p> <table style="width: 361px; height: 149px;" border="0" width="244" cellspacing="3"
+cellpadding="0"> <tbody> <tr> <td style="width: 229.125px;"><span>Projects</span></td> <td
+style="width: 130.641px;"><span>50%</span></td> </tr> <tr> <td style="width:
+229.266px;"><span>Project-based homework</span></td> <td style="width: 130.688px;"><span>up to
+10%</span></td> </tr> <tr> <td style="width: 229.281px;"><span>Midterm exam</span></td> <td
+style="width: 130.719px;"><span>15%</span></td> </tr> <tr> <td style="width:
+229.266px;"><span>Exam-based homework</span></td> <td style="width: 130.734px;"><span>up to
+5%</span></td> </tr> <tr> <td style="width: 229.266px;"><span>Quizzes</span></td> <td style="width:
+130.734px;"><span>20%</span></td> </tr> <tr> <td style="width: 229.266px;"><span>Final
+Exam</span></td> <td style="width: 130.734px;"><span>15%</span></td> </tr> </tbody> </table>
+<p>&nbsp;</p> <p>As the table suggests, projects and exams, including quizzes, each contribute
+equally, 50%, to your final grade. However, as indicated above, you will be given a number of
+project-based homework during the semester. The grades for these activities cut into the Projects
+contribution of your grade by as much as 10%. As an example, let's assume that we didn't have any
+project-based homework. Then, the number of points that you earn in your projects will be normalized
+and will contribute 50% to your final grade. On the other hand, let's say there were many points in
+the project-based homework to warrant 10% contribution. In that case, the project-based homework
+points will contribute 10% to your final grade while your total project points will contribute
+40%.</p> <p>The same principle applies to the exam points -- the exam-based activities could make up
+as much as 5% of the exam points that you earn.</p> <p>You will be notified whether an activity is
+an exam- or project-based activity at the time that they are assigned.</p> <p><span>You must
+separately pass the exams (the midterm exam, exam-based homework, the final, and quizzes
+&nbsp;combined and normalized to 50 points) and the projects (projects and project-based homework,
+combined and normalized to 50 points) with a grade of C- or better to make a grade of C- or better
+in the course.&nbsp;</span></p> <p><strong>Cutoffs for letter grades:</strong> Your semester average
+will be rounded to the nearest integer and transformed to a letter grade using the following
+cutoffs. As an example, a grade of 92 will receive an A- as it is larger than or equal to 90, but
+less than 93.</p> <p>&nbsp;</p> <table class="gradesTbl" style="height: 105px; width: 68.03389%;">
+<tbody> <tr> <td style="width: 8.15785%;">93</td> <td style="width: 8.15785%;">90</td> <td
+style="width: 8.524259%;">87</td> <td style="width: 8.15785%;">83</td> <td style="width:
+8.15785%;">80</td> <td style="width: 8.646395%;">77</td> <td style="width: 8.15785%;">73</td> <td
+style="width: 8.15785%;">70</td> <td style="width: 9.160209%;">67</td> <td style="width:
+8.15785%;">63</td> <td style="width: 8.15785%;">60</td> <td style="width: 8.15785%;">&lt; 60</td>
+</tr> <tr> <td style="width: 8.15785%;">A</td> <td style="width: 8.15785%;">A-</td> <td
+style="width: 8.524259%;">B+</td> <td style="width: 8.15785%;">B</td> <td style="width:
+8.15785%;">B-</td> <td style="width: 8.646395%;">C+</td> <td style="width: 8.15785%;">C</td> <td
+style="width: 8.15785%;">C-</td> <td style="width: 9.160209%;">D+</td> <td style="width:
+8.15785%;">D</td> <td style="width: 8.15785%;">D-</td> <td style="width: 8.15785%;">F</td> </tr>
+</tbody> </table> <p>&nbsp;</p> <h2>Policy on Collaboration</h2> <p>You are encouraged to discuss
+course material with other students. Don't be shy about consulting with anyone, but please
+understand that you, and only you, bear the responsibility for solving the problems associated with
+producing a successful project or solving a homework assignment. Please keep the following in
+mind.</p> <ul class="ulUsual"> <li><cite>All material turned in for credit must be your own
+work</cite>. For the programs, you may discuss design issues with other students, but you must write
+your own code. Copying part or all of another student's assignment, with or without the student's
+knowledge, is prohibited. More generally, you may not include any code that doesn't belong to you,
+regardless of its source, in any work that you submit for grading. The exception is the code that we
+provide to you in the lecture, the labs, and are included in the instructions of the labs and
+projects. We will use plagiarism detection programs such as ETechtor
+(http://www.etector.org/show.cgi) and MOSS (http://theory.stanford.edu/~aiken/moss/) to compare your
+submissions with the past or the present solutions.</li> <li><cite>Receive help with
+care</cite>. Avoid working too closely with another student. Otherwise, you can unwittingly become
+dependent on that student's help and fool yourself into thinking that you understand things better
+than you really do. Always attempt to do as much as you can on your own. Then, after you do seek
+help, be sure to work through similar problems on your own. Learning how to use programming
+resources (e.g., manuals, debuggers) is essential to becoming a computer scientist.</li>
+    
