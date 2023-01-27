@@ -14,14 +14,7 @@ Tokenizer::Tokenizer(string fileName): lineNum{1},
 }
 
 bool Tokenizer::charOfInterest(char c) {
-    if (c == '>') {
-        return true;
-    } else if (c == '<' /*&& (isalpha(inputStream.peek()) || inputStream.peek() == '/') (include all tokens, even if invalid)*/) {
-        return true;
-    } else if (c == '/' && inputStream.peek() == '>') {
-        return true;
-    }
-    return false;
+    return c == '>' || c == '<' || (c == '/' && inputStream.peek() == '>');
 }
 
 string Tokenizer::readTag() {

@@ -12,7 +12,6 @@ using namespace std;
 
 class Token {
 public:
-    Token();
     Token(int, int);
     bool &isOpenTag();
     bool &isCloseTag();
@@ -20,15 +19,10 @@ public:
     bool &isCloseAngleBracket();
     bool &isOpenAngleBracket();
 
-    bool &isError();
-
     bool &endOfFile();
     bool &isCloseStandAloneTag();
 
-    string &tagName();
-
-    void atPosition(int, int);
-    bool hasPosition();
+    string tagName();
 
     void makeOpenTag(string);
     void makeCloseTag(string);
@@ -36,7 +30,7 @@ public:
 
 private:
     bool _isOpenTag, _isCloseTag, _isCloseAngleBracket, _isOpenAngleBracket,
-            _isError, _eof, _isCloseStandAloneTag;
+         _eof, _isCloseStandAloneTag;
 
     string _tagName;
     int _lineNumber, _charPos;
