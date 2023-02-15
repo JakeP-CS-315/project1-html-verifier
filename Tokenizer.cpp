@@ -14,12 +14,14 @@ Tokenizer::Tokenizer(string fileName): lineNum{1},
 }
 
 bool Tokenizer::charOfInterest(char c) {
+    // return true if c is a '<', '>', or '/' followed by a '>'
     return c == '>' || c == '<' || (c == '/' && inputStream.peek() == '>');
 }
 
 string Tokenizer::readTag() {
     string tagName;
     char c;
+    // read the name as long as the character is an alphanumeric [0-9a-zA-Z]
     while (isalnum(inputStream.peek()) && inputStream.get(c)) {
         tagName += c;
         colNum++;
@@ -28,6 +30,7 @@ string Tokenizer::readTag() {
 }
 
 void Tokenizer::skipChars(int length) {
+    // skip a specific number of chars
     for (int i = 0; i < length; i++) {
         inputStream.ignore();
         colNum++;
@@ -60,7 +63,7 @@ Token Tokenizer::getToken() {
     if (c == '<') {
         token.isOpenAngleBracket() = true;
         if (inputStream.peek() == '/') {
-            skipChars(1);
+            skipChars(1); // skip the '/'
             string tagName = readTag();
             token.makeCloseTag(tagName);
         } else if (isalpha(inputStream.peek())){
@@ -70,7 +73,7 @@ Token Tokenizer::getToken() {
         token.isCloseAngleBracket() = true;
     } else if (c == '/') {
         token.isCloseStandAloneTag() = true;
-        skipChars(1);
+        skipChars(1); // skip next char because charOfInterest already made sure it's a '>'
     }
     return token;
 }

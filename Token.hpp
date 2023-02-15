@@ -22,15 +22,20 @@ public:
     bool &endOfFile();
     bool &isCloseStandAloneTag();
 
-    string tagName();
+    string tagName() const;
 
     void makeOpenTag(string);
     void makeCloseTag(string);
     void print();
 
+    void printPosition();
+
+    int lineNumber() { return _lineNumber; }
+    int charPos() { return _charPos; }
+
 private:
     bool _isOpenTag, _isCloseTag, _isCloseAngleBracket, _isOpenAngleBracket,
-         _eof, _isCloseStandAloneTag;
+            _eof, _isCloseStandAloneTag;
 
     string _tagName;
     int _lineNumber, _charPos;

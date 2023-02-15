@@ -26,7 +26,9 @@ bool &Token::isCloseAngleBracket() { return _isCloseAngleBracket; }
 bool &Token::endOfFile() { return _eof; }
 bool &Token::isCloseStandAloneTag() { return _isCloseStandAloneTag; }
 
-string Token::tagName() { return _tagName; }
+string Token::tagName() const {
+    return _tagName;
+}
 
 void Token::makeOpenTag(string name) {
     _tagName = name;
@@ -39,20 +41,23 @@ void Token::makeCloseTag(string name) {
 }
 
 void Token::print() {
-    cout << "[" << setw(2) << _lineNumber << ", " <<  setw(3) << _charPos << "] ";
-
+    printPosition();
     if (isOpenAngleBracket() && isOpenTag()) {
-        cout << "<" << tagName() << endl;
+        cout << "<" << tagName();
     } else if (isOpenAngleBracket() && isCloseTag()) {
-        cout << "</" << tagName() << endl;
+        cout << "</" << tagName();
     } else if (isOpenAngleBracket()) {
-        cout << "<" << endl; // is invalid
+        cout << "<";
     } else if (isCloseStandAloneTag()) {
-        cout << "/>" << endl;
+        cout << "/>";
     } else if (isCloseAngleBracket()) {
-        cout << ">" << endl;
+        cout << ">";
     } else {
         cout << "Token::print -- unknown token.\n" << endl;
         exit(1);
     }
+}
+
+void Token::printPosition() {
+    cout << "[" << setw(2) << _lineNumber << ", " <<  setw(3) << _charPos << "] ";
 }
