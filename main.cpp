@@ -33,23 +33,24 @@ Token handleCloseTag(Tokenizer &tokenizer, Token &token) {
         cout << " is missing a '>'. Will discard it." << endl;
         return nextToken;
     }
-    Token topOfStack = tagStack.top();
-    if (topOfStack.tagName() == token.tagName()) {
-        completedTags.addCompletedTag(topOfStack, token);
-        tagStack.pop();
-    } else {
-        if (tagStack.isInStack(token.tagName())) {
+    if (!tagStack.empty()) {
+        Token topOfStack = tagStack.top();
+        if (topOfStack.tagName() == token.tagName()) {
+            completedTags.addCompletedTag(topOfStack, token);
+            tagStack.pop();
+            return tokenizer.getToken();
+        } else if (tagStack.isInStack(token.tagName())) {
             token.print();
             cout << " closes while the following tags remain open." << endl;
             tagStack.printTokensAbove(token.tagName());
             tagStack.removeElementWithTagName(token.tagName());
-        } else {
-            token.print();
-            cout << " (with close angle bracket ";
-            nextToken.print();
-            cout << ") doesn't have a matching open tag. Will discard it." << endl;
+            return tokenizer.getToken();
         }
     }
+    token.print();
+    cout << " (with close angle bracket ";
+    nextToken.print();
+    cout << ") doesn't have a matching open tag. Will discard it." << endl;
     return tokenizer.getToken();
 }
 
